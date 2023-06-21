@@ -37,7 +37,7 @@ function mostrarProductos(array) {
         console.log(`Id: ${productos.id}, Producto: ${productos.nombre}, Categoria: ${productos.categoria}, Precio: $${productos.precio}`)
     }
 }
-// Funcion de busqueda por nombre o categoria con total o parcialmente
+// Funcion de busqueda por nombre o categoria, total o parcialmente
 function busquedaNombreCategoria(array) {
     let datoBusqueda = prompt("Ingrese el nombre del producto o categoria que desea buscar: ")
     const busqueda = array.filter(
@@ -140,7 +140,7 @@ function ordenar(array) {
 
     }
 }
-
+//Menu
 let salirMenu = false
 
 do {
